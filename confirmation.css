@@ -39,6 +39,10 @@ body {
     padding: 36px 32px;
     box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
     backdrop-filter: blur(14px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .auth-kicker {
@@ -63,43 +67,6 @@ h1 {
     color: var(--text-dark);
     margin-bottom: 18px;
     letter-spacing: 0.35px;
-}
-
-.auth-actions {
-    display: flex;
-    justify-content: center;
-    gap: 14px;
-    flex-wrap: wrap;
-    margin-top: 26px;
-}
-
-.btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 14px 28px;
-    border: none;
-    border-radius: 14px;
-    font-weight: 700;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: transform 0.24s ease, box-shadow 0.24s ease, background 0.24s ease;
-    text-transform: none;
-    letter-spacing: 0.03em;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.btn-primary {
-    background: linear-gradient(135deg, #06b6d4 0%, #0b7285 100%);
-    min-width: 190px;
-}
-
-.btn-primary:hover,
-.btn-primary:focus-visible {
-    transform: translateY(-2px);
-    box-shadow: 0 16px 36px rgba(6, 182, 212, 0.3);
 }
 
 .auth-status,
