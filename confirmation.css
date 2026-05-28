@@ -67,7 +67,10 @@ h1 {
     flex-wrap: wrap;
 }
 
-.btn {
+..btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 14px 30px;
     border: none;
     border-radius: 10px;
@@ -79,6 +82,7 @@ h1 {
     letter-spacing: 1px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     color: var(--text-dark);
+    text-decoration: none;
 }
 
 .btn-primary {
